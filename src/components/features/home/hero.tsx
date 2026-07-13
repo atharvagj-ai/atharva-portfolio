@@ -36,9 +36,11 @@ export function Hero() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
-            className="mb-5 text-sm font-medium text-accent"
+            className="mb-5 flex items-center gap-2.5 text-base tracking-[-0.01em] sm:text-[1.05rem]"
           >
-            Hi, I&apos;m Atharva Jibhakate.
+            <span className="size-1.5 rounded-full bg-accent" aria-hidden="true" />
+            <span className="font-normal text-muted">Hi, I&apos;m</span>{" "}
+            <span className="font-semibold text-accent">Atharva Jibhakate.</span>
           </motion.p>
 
           <motion.h1
@@ -57,8 +59,8 @@ export function Hero() {
             transition={{ duration: 0.56, delay: 0.16, ease: "easeOut" }}
             className="mt-7 max-w-2xl text-lg leading-8 text-muted sm:text-xl"
           >
-            Senior Data Engineer specializing in scalable data platforms, Apache
-            Spark, Databricks and modern Lakehouse architectures.
+            Senior Data Engineer specializing in scalable data platforms, Apache Spark,
+            Databricks and modern Lakehouse architectures.
           </motion.p>
 
           <motion.div
