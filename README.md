@@ -1,6 +1,6 @@
 # Atharva Portfolio
 
-Production-grade personal portfolio foundation for Atharva Jibhakate.
+Personal engineering website showcasing my work, experience and learning as a Senior Data Engineer.
 
 ## Stack
 
@@ -23,3 +23,14 @@ npm run typecheck
 ```
 
 The site is dark-mode only and uses Geist for headings with Inter for body text.
+
+
+## Topics
+
+- nextjs
+- typescript
+- tailwindcss
+- portfolio
+- data-engineering
+- databricks
+- apache-spark
