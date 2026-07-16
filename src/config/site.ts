@@ -27,7 +27,7 @@ export const siteConfig = {
   nav: [
     { label: "Home", href: "/" },
     { label: "About", href: "/#about" },
-    { label: "Experience", href: "/#experience" },
+    { label: "Experience", href: "/experience" },
     { label: "Projects", href: "/#projects" },
     { label: "Architecture", href: "/#architecture" },
     { label: "Learning Lab", href: "/#learning-lab" },
