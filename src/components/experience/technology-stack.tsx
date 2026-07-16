@@ -2,8 +2,22 @@
 import { motion } from "framer-motion";
 import { experience } from "@/content/experience";
 import { Reveal } from "./motion";
-export function TechnologyStack() {
-  const chapter = experience.publicis.chapters.technology;
+
+type TechnologyChapter = {
+  title: string;
+  categories: readonly {
+    title: string;
+    technologies: readonly string[];
+  }[];
+};
+
+type TechnologyStackProps = {
+  chapter?: TechnologyChapter;
+};
+
+export function TechnologyStack({
+  chapter = experience.publicis.chapters.technology,
+}: TechnologyStackProps) {
   return (
     <Reveal>
       <h3 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">
